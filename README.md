@@ -6,7 +6,7 @@ Traditional policy evaluation often relies on the "Average Treatment Effect" (AT
 * Optimise Within Constraints: Incorporate strict budget capacities (e.g., limiting treatment to a specific percentage of the population) directly into the optimisation target.
 *Ensure Fiscal Discipline: Quantify and minimise "fiscal risk exposure" by identifying non-responsive populations.
 ## Workshop Context
-This work draws from training materials developed for a workshop for NUST Institute of Policy Studies (NIPS), Pakistan which I delivered today. The framework is designed to provide decision-level guidance for resource-constrained environments, including (for example):
+This work draws from training materials developed for a workshop for [NUST Institute of Policy Studies (NIPS), Pakistan](https://nips.nust.edu.pk/) which I delivered on 12/06/2026. The framework is designed to provide decision-level guidance for resource-constrained environments, including (for example):
 * **NSS Score Improvement**: You can use these methods to optimise National Student Survey scores by effectively targeting a fraction of students for specific interventions.
 * **Internal Budget Allocation**: As departmental heads or leads, you can apply these techniques to provide financial incentives to a specific portion of your research group, ensuring the most impactful allocation of limited funds.
 ## Policy Domains Tested
@@ -23,6 +23,4 @@ I have validated this pipeline across ten distinct, simulated policy scenarios t
 * **Wastewater Infrastructure and Smart Grids**: Prioritising high-risk sewer catchments to prevent toxic spills.
 
 All the accompanying R codes test these simulations to see which covariates have the most profound effect on policy implementation. You can open the R scripts in RStudio and click on "source" button to see the results for all these scenarios. These methods provide a scalable roadmap for evidence-based governance, ensuring that we maximise social welfare whilst maintaining rigorous fiscal discipline. 
-causal_forest_simulations.pdf
-AI.pdf
  
