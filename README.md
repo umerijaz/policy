@@ -11,16 +11,16 @@ This work draws from training materials developed for a workshop for [NUST Insti
 * **Internal Budget Allocation**: As departmental heads or leads, you can apply these techniques to provide financial incentives to a specific portion of your research group, ensuring the most impactful allocation of limited funds.
 ## Policy Domains Tested
 I have validated this pipeline across ten distinct, simulated policy scenarios to ensure architectural robustness. These scenarios are detailed in the "causal_forest_simulations.pdf" file and include:
-* **After-School Mathematics Tutoring**: Targeting students based on socioeconomic status and prior test scores.
-* **Remote Patient Monitoring (RPM)**: Managing chronic disease readmissions by prioritising high-comorbidity patients.
-* **Residential Energy Efficiency Retrofit**: Prioritising older residential housing stock for grants.
-* **Small Business Digital Transformation**: Subsidising consulting and software adoption to spur local economic growth.
-* **Smart Irrigation Subsidy**: Optimising water usage for large farms in drought-prone areas.
-* **Academic Staff Incentives**: Evaluating the causal return on seed capital based on career stage and discipline.
-* **General Training Incentives**: A synthetic template used for core system validation.
-* **Urban Public Transit Subsidy**: Reducing carbon footprints by subsidising annual passes for commuters.
-* **Urban Tree Canopy Maintenance**: Combating urban heat island effects via targeted zone maintenance.
-* **Wastewater Infrastructure and Smart Grids**: Prioritising high-risk sewer catchments to prevent toxic spills.
+* **After-School Mathematics Tutoring** `causal_forest_afterschool_intensive_tutoring.R`: Targeting students based on socioeconomic status and prior test scores.
+* **Remote Patient Monitoring (RPM)** `causal_forest_remote_patient_monitoring.R`: Managing chronic disease readmissions by prioritising high-comorbidity patients.
+* **Residential Energy Efficiency Retrofit** `causal_forest_residential_energy_efficiency_retrofit.R`: Prioritising older residential housing stock for grants.
+* **Small Business Digital Transformation** `causal_forest_small_business_digital_transformation.R`: Subsidising consulting and software adoption to spur local economic growth.
+* **Smart Irrigation Subsidy** `causal_forest_smart_irrigation_subsidy.R`: Optimising water usage for large farms in drought-prone areas.
+* **Academic Staff Incentives** `causal_forest_academic_staff_incentives.R`: Evaluating the causal return on seed capital based on career stage and discipline.
+* **General Training Incentives** `causal_forest_job_training_interventions.R`: A synthetic template used for core system validation.
+* **Urban Public Transit Subsidy** `causal_forest_urban_public_transit_subsidy.R`: Reducing carbon footprints by subsidising annual passes for commuters.
+* **Urban Tree Canopy Maintenance** `causal_forest_urban_tree_canopy_maintenance.R`: Combating urban heat island effects via targeted zone maintenance.
+* **Wastewater Infrastructure and Smart Grids** `causal_forest_wastewater_policy.R`: Prioritising high-risk sewer catchments to prevent toxic spills.
 
 All the accompanying R codes test these simulations to see which covariates have the most profound effect on policy implementation. You can open the R scripts in RStudio and click on "source" button to see the results for all these scenarios. These methods provide a scalable roadmap for evidence-based governance, ensuring that we maximise social welfare whilst maintaining rigorous fiscal discipline. 
  
